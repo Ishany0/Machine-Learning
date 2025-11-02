@@ -47,4 +47,8 @@ plt.scatter(time_train,scores_train)
 plt.plot(np.linspace(0,70,100).reshape(-1,1),model.predict(np.linspace(0,70,100).reshape(-1,1)),'r')
 plt.show()
 
+#_________________________________________________________________________________________________________________________________
+#if score is negative or low then the model is not good enough, increase data points or remove outliers or use a different mode;  |
+#increasing test size can also help in better evaluation of the model                                                             |
+#__________________________________________________________________________________________________________________________________
 
